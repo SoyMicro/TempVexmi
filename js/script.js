@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Fecha objetivo: 23 de agosto de 2025, 10:00 AM (hora de Colombia)
-    const targetDate = new Date('August 23, 2025 10:00:00 GMT-0500');
+    const targetDate = new Date('August 23, 2025 12:00:00 GMT-0500');
     const tickSound = document.getElementById('tick-sound');
     let lastSecond = null;
     
@@ -76,4 +76,5 @@ document.addEventListener('DOMContentLoaded', function() {
     // Actualizar cada segundo
     updateCountdown();
     setInterval(updateCountdown, 1000);
+
 });
