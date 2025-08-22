@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apertura Vexmi Network</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="particles-container" id="particles"></div>
+    <div class="container">
+        <div class="logo-container">
+            <img src="logo1.png" alt="Vexmi Network Logo" class="logo">
+        </div>
+        <h1>¡Próxima Apertura!</h1>
+        <div class="countdown-container">
+            <div class="countdown-box">
+                <div class="time-circle">
+                    <svg class="progress-ring" width="120" height="120">
+                        <circle class="progress-ring-circle" stroke="var(--primary-color)" stroke-width="4" fill="transparent" r="52" cx="60" cy="60"/>
+                    </svg>
+                    <span id="days">00</span>
+                </div>
+                <span class="countdown-label">Días</span>
+            </div>
+            <div class="countdown-box">
+                <div class="time-circle">
+                    <svg class="progress-ring" width="120" height="120">
+                        <circle class="progress-ring-circle" stroke="var(--secondary-color)" stroke-width="4" fill="transparent" r="52" cx="60" cy="60"/>
+                    </svg>
+                    <span id="hours">00</span>
+                </div>
+                <span class="countdown-label">Horas</span>
+            </div>
+            <div class="countdown-box">
+                <div class="time-circle">
+                    <svg class="progress-ring" width="120" height="120">
+                        <circle class="progress-ring-circle" stroke="var(--accent-color)" stroke-width="4" fill="transparent" r="52" cx="60" cy="60"/>
+                    </svg>
+                    <span id="minutes">00</span>
+                </div>
+                <span class="countdown-label">Minutos</span>
+            </div>
+            <div class="countdown-box">
+                <div class="time-circle">
+                    <svg class="progress-ring" width="120" height="120">
+                        <circle class="progress-ring-circle" stroke="#ff00d0" stroke-width="4" fill="transparent" r="52" cx="60" cy="60"/>
+                    </svg>
+                    <span id="seconds">00</span>
+                </div>
+                <span class="countdown-label">Segundos</span>
+            </div>
+        </div>
+        <p class="description">Vexmi Network abre sus puertas el 23 de agosto de 2025. Prepárate para una experiencia única de Minecraft con modos de juego innovadores y una comunidad increíble.</p>
+        <div class="social-links">
+            <a href="https://discord.gg/VbKZGDWx4k" target="_blank" class="social-link discord" aria-label="Discord">
+                <i class="fab fa-discord"></i>
+            </a>
+            <a href="https://x.com/VexmiNet" target="_blank" class="social-link twitter" aria-label="Twitter">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+        </div>
+    </div>
+    <audio id="tick-sound" src="https://assets.mixkit.co/sfx/preview/mixkit-retro-game-emergency-alarm-1000.mp3" preload="auto"></audio>
+    <script src="js/particles.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
